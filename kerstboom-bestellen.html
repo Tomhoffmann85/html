@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Kerstbomen</title>
+  </head>
+  <body>
+    <h1>Kerstbomen</h1>
+	<hr />
+		<h2>Bestel je kant en klare kerstboom</h2>
+			<fieldset>
+			 <legend>Afleveradres</legend>
+			 <label>Naam: <input type="text" name="Naam" /></label><br />
+			 <label>Adres: <input type="text" name="Adres" /></label><br />
+			 <label>Postcode:<input type="text" name="Postcode" /></label><br />
+			 <label>Woonplaats: <input type="text" name="Woonplaats" /></label><br />
+			 <label>Emailadres: <input type="text" name="Emailadres" /></label><br />
+			</fieldset>
+			<fieldset>
+			<legend>Specificatie kerstboom</legend>
+			 <p>Welke boom wil je hebben?:</p>
+			 <select name ="Kerstbomen">
+			 <option value="Groene fijnspar">Groene fijnspar</option>
+			 <option value="Servische spar">Servische spar</option>
+			 <option value="Blauwspar">Blauwspar</option>
+			 <option value="Nordmann">Nordmann</option>
+			 </select>
+			 
+			 <p>Hoogte van de boom:
+			 <input type="radio" name="Hoogte" value="50" checked="checked" />50cm 
+			 <input type="radio" name="Hoogte" value="100"  /> 100cm
+			 <input type="radio" name="Hoogte" value="150"  />150cm 
+			 </p>
+			 
+			 <p>Kluit:
+			 <input type="radio" name="kluit" value="ja" checked="checked" />Ja
+			 <input type="radio" name="kluit" value="nee" checked="checked" />Nee
+			 
+			 <p>Welke versieringen moeten in de boom:<br />
+			 <input type="checkbox" name="versieringen" value="Witte lampjes"/>Witte lampes<br />
+			 <input type="checkbox" name="versieringen" value="Gekleurde lampjes"/>Gekleurde lampjes<br />
+			 <input type="checkbox" name="versieringen" value="Rode ballen"/>Rode ballen<br />
+			 <input type="checkbox" name="versieringen" value="Goudkleurige ballen"/>Goudkleurige ballen<br />
+			 <input type="checkbox" name="versieringen" value="Goudkleurige slinger "/>Goudkleurige slingers<br />
+			 </p>
+			 
+			 <p>Beschrijf de overige wensen voor de kerstboom</p>
+			 <textarea name="comments" cols="20" rows="4"> Opmerking</textarea>
+			 
+			 <p> Upload een paatje van je favoriete kerstboomversiering</p>
+			 <input type="file" name="favoriete kerstboomversiering"/> 
+			 </fieldset>
+			 
+			 <form action="file:///C:/School/HTML/Antwoorden/Formulier.html"> 
+			  <input type="submit" value="Versturen" />
+			 </form>
+ </body>
+</html>
